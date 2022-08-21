@@ -10,6 +10,7 @@
     margin-left: 2%;
     padding: 0.5% 1%;
     border: none;
+    -o-text-overflow:initial;
 }
 
 
@@ -104,4 +105,25 @@
   .registerInfo {
     margin-top: 5%;
     
+  }
+
+  .contacct {
+    margin-left: 2%;
+  }
+
+  #mainNav {
+    display: inline;
+  }
+
+  #end {
+    margin-bottom: 10%;
+  }
+
+  #fafe {
+    color: white !important;
+    fill: white;
+  }
+
+  #jk {
+    margin-left: 2%;
   }
