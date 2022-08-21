@@ -8,15 +8,39 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body id="page-top">
     <div id="wrapper">
         <div class="d-flex flex-column" id="content-wrapper">
+            
+            
+            
             <div id="content">
                 <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
                     <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <img src="assets/img/allvisor.png" width="10%" id="logo">
+
+                        <button id="contact">Contact a Financial Advisor</button>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Financial Tools
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Financial Tools</a>
+                              <a href="#">Net Worth</a>
+                              <a href="#">Savings Planner</a>
+                              <a href="#">Retirement Planner</a>
+                              <a href="#">Investment Checkup</a>
+                              <a href="#">Fee Analyzer</a>
+                              <a href="#">Finance Calculators</a>
+                            </div>
+                        </div>
+
                         <ul class="navbar-nav flex-nowrap ms-auto">
+                            
                             <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
                                 <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
                                     <form class="me-auto navbar-search w-100">
@@ -61,6 +85,11 @@
                                             <div class="dropdown-list-image me-3"><img class="rounded-circle" src="assets/img/avatars/avatar4.jpeg">
                                                 <div class="bg-success status-indicator"></div>
                                             </div>
+
+                                            
+                                            
+                                            
+
                                             <div class="fw-bold">
                                                 <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
                                                 <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
@@ -94,6 +123,7 @@
                                 </div>
                                 <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
                             </li>
+                            
                             <div class="d-none d-sm-block topbar-divider"></div>
                             <li class="nav-item dropdown no-arrow">
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Yang Zhao</span><img class="border rounded-circle img-profile" src="assets/img/avatars/avatar1.jpeg"></a>
@@ -102,6 +132,8 @@
                                     </div>
                                 </div>
                             </li>
+                            
+                            <!--  -->
                         </ul>
                     </div>
                 </nav>
@@ -199,11 +231,40 @@
             </div>
             <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
-                    <div class="text-center my-auto copyright"><span>Copyright © Brand 2022</span></div>
+                    <div class="text-center my-auto copyright"><span>Copyright © allvisor 2022</span></div>
                 </div>
             </footer>
-        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+            </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
+            
+
     </div>
+
+    <h3 id="recentInv">Recent Investments</h3>
+    <table id="table">
+        <tr class="table-row">
+            <td class="trhd">Company</td>
+            <td class="trhd">Cost</td>
+        </tr>
+
+        <tr class="table-row">
+            <td>TSLA</td>
+            <td>$2000</td>
+        </tr>
+
+        <tr class="table-row">
+            <td>XOM</td>
+            <td>$4500</td>
+        </tr>
+
+        <tr class="table-row">
+            <td>TGT</td>
+            <td>$1675</td>
+        </tr>
+    </table>
+
+    
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
