@@ -69,11 +69,12 @@
   #table {
     margin-left: auto;
     margin-right: auto;
-    width: 45%;
+    width:30%;
   }
 
   .table-row {
-    align-items: center;
+    padding-right: 5%;
+    padding-bottom: 5%;
   }
 
   #recentInv {
@@ -87,5 +88,20 @@
   .trhd {
     color:black;
     font-size: 1.25vmax;
-    margin-bottom: 0.2%;
+    padding-left: 5%;
+  }
+
+  #stockimg {
+    margin-right: 10%;
+  }
+
+  .bruh {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  .registerInfo {
+    margin-top: 5%;
+    
   }
